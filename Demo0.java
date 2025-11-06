@@ -6,7 +6,7 @@ public class Demo0{
 		// Declares an int variable, and sets it to 1
         int i = 0;
 
-        
+
         // Complete the program's code here:
     System.out.println(i);
     while(i < 5)
@@ -14,5 +14,7 @@ public class Demo0{
         i = i + 1;
         System.out.println(i);
     }
+        System.out.println("Done");
+    
  }
 }

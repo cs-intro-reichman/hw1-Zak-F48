@@ -1,14 +1,19 @@
 // Splits a restaurant bill evenly among three diners.
 public class Bill3 {
-		public static void main(String[] args) {
-		// Declares an int variable, and sets it to 1
-        int i = 0;
+    public static void main(String[] args) {
+        // Declares an int variable, and sets it to 1
+       
         // Complete the program's code here:
-    System.out.println(i);
-    while(i < 5)
-    {
-        i = i + 1;
-        System.out.println(i);
+        String name1 = args[0];
+        String name2 = args[1];
+        String name3 = args[2];
+        int total = Integer.parseInt(args[3]);
+        double bill = (total / 3.0);
+        double per = Math.ceil(bill);
+        System.out.println("Dear" + name1 + "," + name2 + "," + name3 + "pay" + per + "shekels each");
+
+
+
+
     }
-}
 }
